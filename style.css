@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --bg-img: ;
+}
+body{
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    background-image: var(--bg-img);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    display: grid;
+    gap: 40px;
+}
+.container input{
+    text-align: center;
+    font-size: 2rem;
+}
+.butoes{
+    display: flex;
+    justify-content: space-evenly;
+}
+.butoes button{
+    font-size: 2rem;
+}
